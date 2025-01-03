@@ -1,0 +1,31 @@
+[package]
+name = "sn"
+version = "0.1.0"
+edition = "2021"
+author = "c76d"
+
+[dependencies]
+eframe = { version = "0.24.1", features = ["persistence"] }
+egui = "0.24.1"
+reqwest = { version = "0.11", features = ["blocking", "stream"] }
+tokio = { version = "1.0", features = ["full"] }
+serde = { version = "1.0", features = ["derive"] }
+serde_json = "1.0"
+anyhow = "1.0"
+log = "0.4"
+env_logger = "0.10"
+chrono = "0.4"
+winapi = { version = "0.3", features = ["winuser"] }
+thirtyfour = "0.31"
+parking_lot = "0.12"
+surge-ping = "0.8.0"
+rand = "0.8"
+zip = "0.6"
+bytes = "1.5"
+futures-util = "0.3"
+
+[dev-dependencies]
+tempfile = "3.8"
+pretty_env_logger = "0.5"
+
+
