@@ -1,5 +1,5 @@
-pub mod network_monitor;
-pub mod config;
+pub mod auth;
 pub mod authentication;
-pub mod downloader; 
-pub mod logger;
+pub mod config;
+pub mod downloader;
+pub mod network_monitor;
